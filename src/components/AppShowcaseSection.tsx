@@ -35,22 +35,19 @@ const AppShowcaseSection = (props: AppShowcaseSectionProps) => {
     {
       id: "qr-scan",
       title: t("screen1Title"),
-      image:
-        "https://images.unsplash.com/photo-1633409361618-c73427e4e206?w=800&q=80",
+      image: "/scann.jpeg",
       description: t("screen1Description"),
     },
     {
       id: "statistics",
       title: t("screen2Title"),
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+      image: "/dashboard.jpeg",
       description: t("screen2Description"),
     },
     {
       id: "history",
       title: t("screen3Title"),
-      image:
-        "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+      image: "/screens/history.png",
       description: t("screen3Description"),
     },
   ];
@@ -75,9 +72,9 @@ const AppShowcaseSection = (props: AppShowcaseSectionProps) => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
               viewport={{ once: true }}
-              className="w-full md:w-1/3 flex flex-col"
+              className="flex flex-col pt-[200px]"
             >
-              <TabsList className="flex flex-row md:flex-col w-full bg-[#2A2A2A] rounded-lg p-2">
+              <TabsList className="flex flex-row md:flex-col w-full bg-[#1E1E1E] rounded-lg p-2">
                 {screens.map((screen) => (
                   <TabsTrigger
                     key={screen.id}
@@ -109,7 +106,7 @@ const AppShowcaseSection = (props: AppShowcaseSectionProps) => {
                   <Card className="border-0 overflow-hidden bg-transparent shadow-xl">
                     <CardContent className="p-0">
                       <div className="relative">
-                        <div className="bg-[#2A2A2A] rounded-2xl p-2 md:p-4 shadow-lg">
+                        <div className="rounded-2xl p-2 md:p-4 shadow-lg">
                           <div className="flex justify-center items-center w-full h-full overflow-hidden rounded-xl">
                             <div className="relative w-full max-w-sm mx-auto">
                               {/* Phone frame */}
@@ -123,7 +120,7 @@ const AppShowcaseSection = (props: AppShowcaseSectionProps) => {
                                 <img
                                   src={screen.image}
                                   alt={screen.title}
-                                  className="w-full aspect-[9/16] object-cover"
+                                  className="w-full aspect-[8/16] object-cover"
                                 />
                                 {/* Home button/indicator */}
                                 <div className="absolute bottom-2 inset-x-0 flex justify-center">

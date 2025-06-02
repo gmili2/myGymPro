@@ -14,7 +14,7 @@ export const translations: Translations = {
     title: "MyGymPro",
     slogan: "Gérez votre salle de sport, nous gérons vos membres.",
     ctaText: "Essayer gratuitement",
-    founders: "Fondateurs: Anouar Gmili et Brahim JT",
+    founders: "Fondateur: Anouar Gmili",
 
     // Features Section
     featuresTitle: "Fonctionnalités principales",
@@ -36,7 +36,7 @@ export const translations: Translations = {
     // Pricing Section
     pricingTitle: "Tarification simple et transparente",
     pricingDescription:
-      "Choisissez le plan qui correspond à vos besoins. Tous les plans incluent un essai gratuit de 14 jours.",
+      "Choisissez le plan qui correspond à vos besoins. Tous les plans incluent un essai gratuit de 30 jours.",
     monthlyTitle: "Mensuel",
     monthlyPrice: "99 DH",
     monthlyPeriod: "/mois",
@@ -49,7 +49,7 @@ export const translations: Translations = {
     savings: "Économisez 189 DH",
     tryFree: "Essayer gratuitement",
     trialInfo:
-      "Tous les plans incluent un essai gratuit de 14 jours. Aucune carte de crédit requise.",
+      "Tous les plans incluent un essai gratuit de 30 jours. Aucune carte de crédit requise.",
 
     // App Showcase Section
     appTitle: "Découvrez l'application MyGymPro",
@@ -81,7 +81,7 @@ export const translations: Translations = {
     addressTitle: "Notre adresse",
     address: "Casablanca, Maroc",
     phoneTitle: "Téléphone",
-    phone: "+212 600 000 000",
+    phone: "+212 682 96 24 62",
     emailTitle: "Email",
     email: "contact@mygympro.ma",
   },
@@ -90,7 +90,7 @@ export const translations: Translations = {
     title: "MyGymPro",
     slogan: "Manage your gym, we manage your members.",
     ctaText: "Try for free",
-    founders: "Founders: Anouar Gmili and Brahim JT",
+    founders: "Founders: Anouar Gmili",
 
     // Features Section
     featuresTitle: "Key Features",
@@ -112,7 +112,7 @@ export const translations: Translations = {
     // Pricing Section
     pricingTitle: "Simple and transparent pricing",
     pricingDescription:
-      "Choose the plan that suits your needs. All plans include a 14-day free trial.",
+      "Choose the plan that suits your needs. All plans include a 30-day free trial.",
     monthlyTitle: "Monthly",
     monthlyPrice: "99 DH",
     monthlyPeriod: "/month",
@@ -125,7 +125,7 @@ export const translations: Translations = {
     savings: "Save 189 DH",
     tryFree: "Try for free",
     trialInfo:
-      "All plans include a 14-day free trial. No credit card required.",
+      "All plans include a 30-day free trial. No credit card required.",
 
     // App Showcase Section
     appTitle: "Discover the MyGymPro app",
@@ -154,7 +154,7 @@ export const translations: Translations = {
     addressTitle: "Our address",
     address: "Casablanca, Morocco",
     phoneTitle: "Phone",
-    phone: "+212 600 000 000",
+    phone: "+212 682 96 24 62",
     emailTitle: "Email",
     email: "contact@mygympro.ma",
   },
