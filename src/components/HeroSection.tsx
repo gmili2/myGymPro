@@ -35,14 +35,18 @@ const HeroSection = ({
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white">
             {t("title")}
           </h1>
 
-          <p className="text-xl md:text-2xl text-gray-200 max-w-lg">
+          <p className="text-lg md:text-xl text-gray-200 max-w-lg">
             {t("slogan")}
+            <br />
+            <span className="block mt-2">
+              {t("detailedDescription")}
+            </span>
           </p>
-
+    
           <p className="text-md text-gray-400">{t("founders")}</p>
 
           <Button

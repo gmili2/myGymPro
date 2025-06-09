@@ -83,7 +83,11 @@ export const translations: Translations = {
     phoneTitle: "Téléphone",
     phone: "+212 682 96 24 62",
     emailTitle: "Email",
-    email: "contact@mygympro.ma",
+    email: "anouar.gmili@mygympro.club",
+
+    // Detailed Description
+    detailedDescription:
+      "Notre solution est idéale pour les salles modestes qui utilisent encore le papier ou Excel. C'est la première solution mobile et la moins chère dédiée à la gestion des entrées et des clients dans le domaine du fitness.",
   },
   en: {
     // Hero Section
@@ -156,7 +160,11 @@ export const translations: Translations = {
     phoneTitle: "Phone",
     phone: "+212 682 96 24 62",
     emailTitle: "Email",
-    email: "contact@mygympro.ma",
+    email: "anouar.gmili@mygympro.club",
+
+    // Detailed Description
+    detailedDescription:
+      "Our solution is ideal for small gyms still using paper or Excel. It is the first and most affordable mobile solution dedicated to entry tracking and client management in the fitness industry.",
   },
 };
 
