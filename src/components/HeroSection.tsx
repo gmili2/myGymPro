@@ -80,10 +80,13 @@ const HeroSection = ({
                 </div>
 
                 {/* App content */}
-                <div className="flex-1 flex flex-col items-center justify-center p-6">
+                <div className="flex-1 flex flex-col items-center justify-center p-6" style={{ backgroundImage: "url('/test.jpg')", backgroundSize: 'cover' }}> 
                   {/* Logo */}
                   <div className="w-20 h-20 bg-[#F44336] rounded-full mb-8 flex items-center justify-center">
-                    <span className="text-white text-2xl font-bold">M</span>
+                    <span className="text-white text-2xl font-bold">
+                    <img src="/myGymPro.png" alt="Logo MyGymPro" style={{ height: 60 , background: "red" }} />
+
+                    </span>
                   </div>
 
                   <h2 className="text-white text-2xl font-bold mb-8">
